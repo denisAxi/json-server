@@ -1,239 +1,521 @@
 {
-    "quiz-data": {
+    "cours-data": {
         "data": [
             {
-                "question": "Quelle est la fonction qui compare les éléments des deux listes?",
-                "type_question": "CM",
-                "note_question": "None",
-                "answers": [
+                "id": 1,
+                "label": "New",
+                "title": "Blockchain Developer",
+                "description": "Demand for blockchain developers is skyrocketing. In this program, you'll work with the Bitcoin and Ethereum protocols, build projects for real-world application, and gain the essential skills for a career in this dynamic space.",
+                "school_academy": "AXI Academy",
+                "image": "https://quedulourd.com/wp-content/uploads/2020/11/Complete-Python-Course-Basics-Advanced-100OFF-Coupon.jpg",
+                "price": "100.00",
+                "level": "Beginner",
+                "time": "1",
+                "categories": [
+                    "Data",
+                    "Blockchain",
+                    "Python"
+                ],
+                "competences_couvertes": "Ethereum Blockchain, Blockchain Architecture, Data Auditing",
+                "collab": [
+                    "INSA",
+                    "PARIS"
+                ],
+                "image_collab": [
+                    "https://iris-insa.com/assets/img/imageonline-co-whitebackgroundremoved.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Universit%C3%A4t_Tartu_Logo.svg/1200px-Universit%C3%A4t_Tartu_Logo.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/fr/c/cd/Logo_Sorbonne_Universit%C3%A9.png"
+                ],
+                "prerequisites": "Object-oriented programming",
+                "cqv_apprendre": [
+                    "Create their own Python Programs",
+                    "Become an experienced Python Programmer",
+                    "Parse the Web and Create their own Games"
+                ],
+                "cqv_gagerez": [
+                    "Have a portfolio of various data analysis projects",
+                    "Use the pandas module with Python to create and structure data",
+                    "Use the Jupyter Notebook Environment"
+                ],
+                "is_free": false,
+                "owners": [
                     {
-                        "id_answer": "szgb6p9luv",
-                        "answer": "cmp(list1, list2)"
-                    },
-                    {
-                        "id_answer": "04r0n2war8",
-                        "answer": "eq(list1, list2)"
-                    },
-                    {
-                        "id_answer": "x27mf9ac4x",
-                        "answer": "len(list1, list2)"
-                    },
-                    {
-                        "id_answer": "v3dax1b51c",
-                        "answer": "max(list1, list2)"
+                        "id": 12,
+                        "full_name": "Maxim Lepont",
+                        "job": "none",
+                        "specialise": "nome",
+                        "image": "none",
+                        "school": "notschool",
+                        "description_school": "notschool",
+                        "image_school": "notschool",
+                        "is_professor": true
                     }
                 ],
-                "help": {
-                    "message": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur            quidem ea maxime quasi harum suscipit perspiciatis ipsum cum neque            laborum dolorem delectus, sit explicabo eum vitae, inventore veniam            quaerat doloribus.",
-                    "link": "http://localhost:3000/learn/learning/1/1/2?source=lesson&product_type=parcours&parcours_id=1&cc_id=2&code_lien=5Xacg4tAyQBMfYPDOqyioTQlx"
-                }
-            },
-            {
-                "question": "Python est un langage",
-                "type_question": "RM",
-                "note_question": "None",
-                "answers": [
+                "professors": [
+                    "lepont@gmail.com"
+                ],
+                "students": [
+                    "admin@admin.com"
+                ],
+                "chapters": [
                     {
-                        "id_answer": "qf45frdeef",
-                        "answer": "true 1"
+                        "id": 1,
+                        "id_chapter": 1,
+                        "title": "INTRODUCTION",
+                        "description": "Ici on va parler des bases en python comment installé et exécuté python sous sa machine",
+                        "course": 1,
+                        "lessons": [
+                            {
+                                "id": 1,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "Création, exécution et installation",
+                                "description": "installation de python",
+                                "premium": false
+                            },
+                            {
+                                "id": 2,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "Les variables Python",
+                                "description": "déclaration des variables en python",
+                                "premium": false
+                            }
+                        ],
+                        "projects": [
+                            {
+                                "id": 1,
+                                "id_activity": 4,
+                                "type_activity": "project",
+                                "title": "Fonction python ABC",
+                                "description": "Fonction python ABC",
+                                "premium": false
+                            },
+                            {
+                                "id": 2,
+                                "id_activity": 5,
+                                "type_activity": "project",
+                                "title": "Création en python ZZ",
+                                "description": "Création en python ZZ",
+                                "premium": true
+                            }
+                        ],
+                        "quizes": [
+                            {
+                                "id": 1,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz introduction à python",
+                                "description": "questions sur le premier chapitre en python",
+                                "premium": false
+                            }
+                        ],
+                        "codes": [
+                            {
+                                "id": 1,
+                                "id_activity": 6,
+                                "type_activity": "code",
+                                "title": "Code python AA",
+                                "description": "Code python AA",
+                                "premium": false
+                            }
+                        ]
                     },
                     {
-                        "id_answer": "vujl5379vk",
-                        "answer": "true 2"
-                    },
-                    {
-                        "id_answer": "br15430xac",
-                        "answer": "true 3"
-                    },
-                    {
-                        "id_answer": "niw08rb5n6",
-                        "answer": "false"
-                    }
-                ]
-            },
-            {
-                "question": " Les étapes du développement d’un logiciel?",
-                "type_question": "SA",
-                "note_question": "None",
-                "answers": [
-                    {
-                        "id_answer": "hxk69gkp6x",
-                        "answer": "Le développement logiciel"
-                    },
-                    {
-                        "id_answer": "6ucva37vgj",
-                        "answer": "La planification"
-                    },
-                    {
-                        "id_answer": "lmzsgxskbw",
-                        "answer": "Le déploiement"
-                    },
-                    {
-                        "id_answer": "6ddqjhqm1i",
-                        "answer": "Le design et le prototypage"
-                    }
-                ]
-            },
-            {
-                "question": "Qu'est-ce que la fonction lambda ?",
-                "type_question": "FB",
-                "note_question": "None",
-                "answers": [
-                    {
-                        "id_answer": "74z4t6mki0",
-                        "answer": "Les fonctions lambda sont de petites fonctions {@input @}  en Python. Il a des expressions uniques et accepte  {@ select | 1 | 2 |plusieurs @}   arguments."
-                    }
-                ]
-            },
-            {
-                "question": "Ou` est Dung ?",
-                "type_question": "RC",
-                "note_question": "None",
-                "answers": "None"
-            },
-            {
-                "question": "Python est-il un langage à typage statique ou à typage dynamique ?",
-                "type_question": "CA",
-                "note_question": "None",
-                "answers": [
-                    {
-                        "id_answer": "dp3euiwb0t",
-                        "answer": "dynamique  ."
-                    },
-                    {
-                        "id_answer": "omjrjlvt54",
-                        "answer": "un langage"
-                    },
-                    {
-                        "id_answer": "grm3bjxzkk",
-                        "answer": "à typage"
-                    },
-                    {
-                        "id_answer": "309c01lrkj",
-                        "answer": "Python est "
-                    }
-                ]
-            },
-            {
-                "question": "Quelle est la fonction qui compare les éléments des deux listes?",
-                "type_question": "CM",
-                "note_question": "None",
-                "answers": [
-                    {
-                        "id_answer": "szgb6p9luv",
-                        "answer": "cmp(list1, list2)"
-                    },
-                    {
-                        "id_answer": "04r0n2war8",
-                        "answer": "eq(list1, list2)"
-                    },
-                    {
-                        "id_answer": "x27mf9ac4x",
-                        "answer": "len(list1, list2)"
-                    },
-                    {
-                        "id_answer": "v3dax1b51c",
-                        "answer": "max(list1, list2)"
+                        "id": 2,
+                        "id_chapter": 2,
+                        "title": "Les Syntaxes",
+                        "description": "Les syntaxes du langage python",
+                        "course": 1,
+                        "lessons": [
+                            {
+                                "id": 4,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "Les conditions",
+                                "description": "les conditions en programmation python",
+                                "premium": true
+                            },
+                            {
+                                "id": 3,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "Syntaxes",
+                                "description": "Les syntaxes, en python",
+                                "premium": false
+                            }
+                        ],
+                        "projects": [
+                            {
+                                "id": 3,
+                                "id_activity": 5,
+                                "type_activity": "project",
+                                "title": "Fonction python ABC132",
+                                "description": "Fonction python ABC132",
+                                "premium": false
+                            }
+                        ],
+                        "quizes": [
+                            {
+                                "id": 2,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz sur les syntaxes",
+                                "description": "Quiz sur les syntaxes python",
+                                "premium": false
+                            }
+                        ],
+                        "codes": [
+                            {
+                                "id": 2,
+                                "id_activity": 4,
+                                "type_activity": "code",
+                                "title": "Code python BB",
+                                "description": "Code python BB",
+                                "premium": false
+                            }
+                        ]
                     }
                 ],
-                "media": [
-                    {
-                        "media_type": "image",
-                        "media_src": "https://blablanegocios.com/wp-content/uploads/sites/2/2017/03/DATA-SCIENCE-QU%C3%89-ES-2.jpg"
-                    }
-                ]
+                "created_at": "2022-01-21T16:37:09.256320Z",
+                "updated_at": "2022-04-28T08:25:02.262547Z"
             },
             {
-                "question": "Quelle est la fonction qui compare les éléments des deux listes?",
-                "type_question": "CM",
-                "note_question": "None",
-                "answers": [
+                "id": 2,
+                "label": "New",
+                "title": "Data Scientist",
+                "description": "Build effective machine learning models, run data pipelines, build recommendation systems, and deploy solutions to the cloud with industry-aligned projects.",
+                "school_academy": "AXI Academy",
+                "image": "https://www.cours-gratuit.com/images/thumb/171/id-3572.png",
+                "price": "150.00",
+                "level": "Intermediate",
+                "time": "5",
+                "categories": [
+                    "Python",
+                    "SQL",
+                    "Statistics"
+                ],
+                "competences_couvertes": "Machine Learning, Deep Learning, Software Engineering",
+                "collab": [
+                    "Blois"
+                ],
+                "image_collab": [
+                    "https://iris-insa.com/assets/img/imageonline-co-whitebackgroundremoved.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Universit%C3%A4t_Tartu_Logo.svg/1200px-Universit%C3%A4t_Tartu_Logo.svg.png"
+                ],
+                "prerequisites": "Python, SQL & Statistics",
+                "cqv_apprendre": [
+                    "Create their own Python Programs",
+                    "Become an experienced Python Programmer",
+                    "Parse the Web and Create their own Games",
+                    "Create their own Python Programs",
+                    "Become an experienced Python Programmer",
+                    "Parse the Web and Create their own Games"
+                ],
+                "cqv_gagerez": [
+                    "Have a portfolio of various data analysis projects",
+                    "Use the pandas module with Python to create and structure data",
+                    "Use the Jupyter Notebook Environment"
+                ],
+                "is_free": false,
+                "owners": [
                     {
-                        "id_answer": "szgb6p9luv",
-                        "answer": "cmp(list1, list2)"
-                    },
-                    {
-                        "id_answer": "04r0n2war8",
-                        "answer": "eq(list1, list2)"
-                    },
-                    {
-                        "id_answer": "x27mf9ac4x",
-                        "answer": "len(list1, list2)"
-                    },
-                    {
-                        "id_answer": "v3dax1b51c",
-                        "answer": "max(list1, list2)"
+                        "id": 13,
+                        "full_name": "Antoine Gomez",
+                        "job": "none",
+                        "specialise": "nome",
+                        "image": "none",
+                        "school": "notschool",
+                        "description_school": "notschool",
+                        "image_school": "notschool",
+                        "is_professor": true
                     }
                 ],
-                "media": [
+                "professors": [
+                    "lepont@gmail.com",
+                    "gomez@gmail.com"
+                ],
+                "students": [],
+                "chapters": [
                     {
-                        "media_type": "image",
-                        "media_src": "https://blablanegocios.com/wp-content/uploads/sites/2/2017/03/DATA-SCIENCE-QU%C3%89-ES-2.jpg"
+                        "id": 4,
+                        "id_chapter": 2,
+                        "title": "Les exceptions",
+                        "description": "les exceptions en python",
+                        "course": 2,
+                        "lessons": [
+                            {
+                                "id": 7,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "les exceptions",
+                                "description": "exceptions python",
+                                "premium": false
+                            },
+                            {
+                                "id": 8,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "programmation orienté objet",
+                                "description": "la programmation orienté objet en python",
+                                "premium": false
+                            }
+                        ],
+                        "projects": [
+                            {
+                                "id": 4,
+                                "id_activity": 5,
+                                "type_activity": "project",
+                                "title": "Fonction python123444",
+                                "description": "Fonction python123444",
+                                "premium": false
+                            },
+                            {
+                                "id": 5,
+                                "id_activity": 6,
+                                "type_activity": "project",
+                                "title": "Création en python23232",
+                                "description": "Création en python23232",
+                                "premium": false
+                            }
+                        ],
+                        "quizes": [
+                            {
+                                "id": 4,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz sur les exceptions",
+                                "description": "Quiz sur les exceptions python",
+                                "premium": false
+                            }
+                        ],
+                        "codes": [
+                            {
+                                "id": 3,
+                                "id_activity": 4,
+                                "type_activity": "code",
+                                "title": "Code python123",
+                                "description": "Code python123",
+                                "premium": true
+                            }
+                        ]
                     },
                     {
-                        "media_type": "audio",
-                        "media_src": "https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3"
+                        "id": 3,
+                        "id_chapter": 1,
+                        "title": "Les classes et objets en python",
+                        "description": "les objets python",
+                        "course": 2,
+                        "lessons": [
+                            {
+                                "id": 5,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "Classe et objet",
+                                "description": "les classes et objets python",
+                                "premium": true
+                            },
+                            {
+                                "id": 6,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "Les boucles",
+                                "description": "les boucles en python",
+                                "premium": true
+                            }
+                        ],
+                        "projects": [],
+                        "quizes": [
+                            {
+                                "id": 3,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz sur les classes et objets",
+                                "description": "Quiz sur les classes et objets python",
+                                "premium": true
+                            }
+                        ],
+                        "codes": [
+                            {
+                                "id": 4,
+                                "id_activity": 4,
+                                "type_activity": "code",
+                                "title": "Code python123444",
+                                "description": "Code python123444",
+                                "premium": false
+                            }
+                        ]
                     }
-                ]
+                ],
+                "created_at": "2022-01-21T16:40:33.511275Z",
+                "updated_at": "2022-04-28T08:26:38.420607Z"
             },
             {
-                "question": "Quelle est la fonction qui compare les éléments des deux listes?",
-                "type_question": "CM",
-                "note_question": "None",
-                "answers": [
+                "id": 3,
+                "label": "New",
+                "title": "Introduction to Programming",
+                "description": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+                "school_academy": "AXI Academy",
+                "image": "https://www.cours-gratuit.com/images/thumb/171/id-3604.png",
+                "price": "200.00",
+                "level": "Advanced",
+                "time": "4",
+                "categories": [
+                    "HTML",
+                    "CSS",
+                    "Javascripts"
+                ],
+                "competences_couvertes": "Front-End Development Basics,  HTML,  CSS,  Python Syntax,  Text Processing in Python,  DevTools,  Command Line Interface Basics,  Code Debugging,  JavaScript Data Structures,  Control Flow in JavaScr",
+                "collab": [
+                    "Blois"
+                ],
+                "image_collab": [
+                    "https://iris-insa.com/assets/img/imageonline-co-whitebackgroundremoved.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Universit%C3%A4t_Tartu_Logo.svg/1200px-Universit%C3%A4t_Tartu_Logo.svg.png"
+                ],
+                "prerequisites": "No coding experience needed",
+                "cqv_apprendre": [
+                    "Create their own Python Programs",
+                    "Become an experienced Python Programmer",
+                    "Parse the Web and Create their own Games"
+                ],
+                "cqv_gagerez": [
+                    "Have a portfolio of various data analysis projects",
+                    "Use the pandas module with Python to create and structure data",
+                    "Use the Jupyter Notebook Environment"
+                ],
+                "is_free": false,
+                "owners": [
                     {
-                        "id_answer": "szgb6p9luv",
-                        "answer": "cmp(list1, list2)"
-                    },
-                    {
-                        "id_answer": "04r0n2war8",
-                        "answer": "eq(list1, list2)"
-                    },
-                    {
-                        "id_answer": "x27mf9ac4x",
-                        "answer": "len(list1, list2)"
-                    },
-                    {
-                        "id_answer": "v3dax1b51c",
-                        "answer": "max(list1, list2)"
+                        "id": 13,
+                        "full_name": "Antoine Gomez",
+                        "job": "none",
+                        "specialise": "nome",
+                        "image": "none",
+                        "school": "notschool",
+                        "description_school": "notschool",
+                        "image_school": "notschool",
+                        "is_professor": true
                     }
                 ],
-                "media": [
+                "professors": [
+                    "gomez@gmail.com"
+                ],
+                "students": [],
+                "chapters": [
                     {
-                        "media_type": "video",
-                        "media_src": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
-                    }
-                ]
-            },
-            {
-                "question": "Quelle est la fonction qui compare les éléments des deux listes?",
-                "type_question": "CM",
-                "note_question": "None",
-                "answers": [
-                    {
-                        "id_answer": "szgb6p9luv",
-                        "answer": "cmp(list1, list2)"
+                        "id": 6,
+                        "id_chapter": 2,
+                        "title": "Les collections",
+                        "description": "Les collections en python",
+                        "course": 3,
+                        "lessons": [
+                            {
+                                "id": 11,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "Collection python",
+                                "description": "Les différentes collections en python",
+                                "premium": true
+                            },
+                            {
+                                "id": 12,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "Condition python",
+                                "description": "les conditions à utiliser pour déclarer des variables en python",
+                                "premium": false
+                            }
+                        ],
+                        "projects": [
+                            {
+                                "id": 6,
+                                "id_activity": 4,
+                                "type_activity": "project",
+                                "title": "Fonction python ABCdfd",
+                                "description": "Fonction python ABCdfd",
+                                "premium": false
+                            },
+                            {
+                                "id": 7,
+                                "id_activity": 5,
+                                "type_activity": "project",
+                                "title": "Création en python13df",
+                                "description": "Création en python13df",
+                                "premium": true
+                            },
+                            {
+                                "id": 8,
+                                "id_activity": 6,
+                                "type_activity": "project",
+                                "title": "ABC123",
+                                "description": "ABC123",
+                                "premium": true
+                            }
+                        ],
+                        "quizes": [
+                            {
+                                "id": 6,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz sur les collections",
+                                "description": "Quiz sur les collections en python",
+                                "premium": false
+                            }
+                        ],
+                        "codes": []
                     },
                     {
-                        "id_answer": "04r0n2war8",
-                        "answer": "eq(list1, list2)"
-                    },
-                    {
-                        "id_answer": "x27mf9ac4x",
-                        "answer": "len(list1, list2)"
-                    },
-                    {
-                        "id_answer": "v3dax1b51c",
-                        "answer": "max(list1, list2)"
+                        "id": 5,
+                        "id_chapter": 1,
+                        "title": "Les fonctions",
+                        "description": "Les fonctions en python",
+                        "course": 3,
+                        "lessons": [
+                            {
+                                "id": 9,
+                                "id_activity": 1,
+                                "type_activity": "lesson",
+                                "title": "Fonction python",
+                                "description": "Les fonctions en python",
+                                "premium": true
+                            },
+                            {
+                                "id": 10,
+                                "id_activity": 2,
+                                "type_activity": "lesson",
+                                "title": "Création en python",
+                                "description": "Création et installation en python",
+                                "premium": true
+                            }
+                        ],
+                        "projects": [],
+                        "quizes": [
+                            {
+                                "id": 5,
+                                "id_activity": 3,
+                                "type_activity": "quiz",
+                                "title": "Quiz sur les fonctions",
+                                "description": "Quiz sur les fonctions en python",
+                                "premium": true
+                            }
+                        ],
+                        "codes": [
+                            {
+                                "id": 5,
+                                "id_activity": 4,
+                                "type_activity": "code",
+                                "title": "Code python AA1235567",
+                                "description": "Code python AA1235567",
+                                "premium": true
+                            }
+                        ]
                     }
                 ],
-                "media": [
-                    {
-                        "media_type": "youtube",
-                        "media_src": "https://www.youtube.com/watch?v=R7ie2x1oiDk"
-                    }
-                ]
+                "created_at": "2022-01-21T16:43:14.662614Z",
+                "updated_at": "2022-04-28T08:28:00.582245Z"
             }
         ]
     }
+    
 }
